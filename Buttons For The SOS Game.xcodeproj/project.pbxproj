@@ -12,6 +12,7 @@
 		D7B214F32059AC2F005845C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B214F12059AC2F005845C3 /* Main.storyboard */; };
 		D7B214F52059AC2F005845C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B214F42059AC2F005845C3 /* Assets.xcassets */; };
 		D7B214F82059AC2F005845C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B214F62059AC2F005845C3 /* LaunchScreen.storyboard */; };
+		D7B215002059AD54005845C3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B214FF2059AD54005845C3 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D7B214F42059AC2F005845C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7B214F72059AC2F005845C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7B214F92059AC2F005845C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B214FF2059AD54005845C3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D7B214ED2059AC2F005845C3 /* AppDelegate.swift */,
 				D7B214EF2059AC2F005845C3 /* ViewController.swift */,
+				D7B214FF2059AD54005845C3 /* GameViewController.swift */,
 				D7B214F12059AC2F005845C3 /* Main.storyboard */,
 				D7B214F42059AC2F005845C3 /* Assets.xcassets */,
 				D7B214F62059AC2F005845C3 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7B214F02059AC2F005845C3 /* ViewController.swift in Sources */,
+				D7B215002059AD54005845C3 /* GameViewController.swift in Sources */,
 				D7B214EE2059AC2F005845C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
